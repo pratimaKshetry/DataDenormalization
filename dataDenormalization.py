@@ -1,6 +1,6 @@
 """
 Created on Thu Dec 15 09:36:57 2016
-@author: Pratima
+@author: Pratima Kshetry
 """
 import pymysql
 #import MySQLdb
