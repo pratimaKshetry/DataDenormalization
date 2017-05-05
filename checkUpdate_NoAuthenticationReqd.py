@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Apr 03 09:27:01 2017
+#Send email notification to users when no authentication is required
 """
 import sys
 import urllib3
