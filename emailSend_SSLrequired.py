@@ -60,7 +60,7 @@ def checkForData(newRow,cursor):
         if(existingMD5!=str(newRow["hashKey"])): #if existing MD5Hash value is not equal to new MD5Hash, this means new updates are available
             print("New updates available for "+ str(newRow["URL"]))
             updateQuery(str(newRow["URL"]),str(newRow["hashKey"]),cursor)
-            send_email("piquepk75@gmail.com","iamUMD29,","pratima.kshetry@hotmail.com","test","UPDATES AVAILABLE!!")
+            send_email("testEmail@gmail.com","testTEST123","pratima.kshetry@hotmail.com","test","UPDATES AVAILABLE!!")
 
 def censusCountyDataUpdate(cursor):
     newRow={}
