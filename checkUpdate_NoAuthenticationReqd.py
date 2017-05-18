@@ -59,7 +59,7 @@ def checkForData(newRow,cursor):
         if(existingMD5!=str(newRow["hashKey"])): #if existing MD5Hash value is not equal to new MD5Hash, this means new updates are available
             print("New updates available for "+ str(newRow["URL"]))
             updateQuery(str(newRow["URL"]),str(newRow["hashKey"]),cursor)
-            recipients=[ ' brian.honermann@amfar.org', 'alana.sharp@amfar.org']
+            recipients=[ ' brian.test@XYZ.org', 'alana.test@XYZ.org']
             #recipients=[ 'pratima.kshetry@amfar.org']
             send_email("dbinfo@amfar.org ","KxKIBLRm",recipients,"test","NEW UPDATES AVAILABLE!! ")
             
