@@ -60,8 +60,8 @@ def checkForData(newRow,cursor):
             print("New updates available for "+ str(newRow["URL"]))
             updateQuery(str(newRow["URL"]),str(newRow["hashKey"]),cursor)
             recipients=[ ' brian.test@XYZ.org', 'alana.test@XYZ.org']
-            #recipients=[ 'pratima.kshetry@amfar.org']
-            send_email("dbinfo@amfar.org ","KxKIBLRm",recipients,"test","NEW UPDATES AVAILABLE!! ")
+            #recipients=[ 'pratima.kshetry@XYZ.org']
+            send_email("dbinfo@XYZ.org ","KxKIBLRm",recipients,"test","NEW UPDATES AVAILABLE!! ")
             
             
 def censusCountyDataUpdate(cursor):
